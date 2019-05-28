@@ -1,0 +1,50 @@
+# Insert your preferred key mappings here.
+unmap j
+unmap k
+unmap gg
+unmap G
+unmap h
+unmap l
+unmap zH
+unmap zL
+unmap yy
+unmap p
+unmap P
+unmap gu
+unmap gU
+unmap v
+unmap /
+unmap o
+unmap x
+unmap <a-p>
+unmap <a-m>
+unmap X
+unmap n
+unmap N
+unmap `
+unmap m
+unmap >>
+unmap <<
+unmap <a-f>
+unmap <c-e>
+unmap <c-y>
+unmap gF
+unmap gf
+unmap J
+unmaP K
+unmap jj
+unmap kk
+
+
+map z restoreTab
+map o Vomnibar.activateInNewTab
+map f LinkHints.activateModeToOpenInNewTab
+map F LinkHints.activateMode
+map b Vomnibar.activateBookmarksInNewTab
+map ge Vomnibar.activateEditUrlInNewTab
+map w removeTab
+map r reload
+map j previousTab
+map k  nextTab
+map jj firstTab
+map kk lastTab

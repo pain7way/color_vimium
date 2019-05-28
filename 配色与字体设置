@@ -1,0 +1,108 @@
+/* vimium的链接样式设置 */
+div > .vimiumHintMarker {
+/* linkhint boxes */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),
+  color-stop(100%,#FFC542));
+border: 1px solid #E3BE23;
+}
+
+div > .vimiumHintMarker span {
+/* linkhint text */
+color: black;
+font-weight: bold;
+font-size: 13px;
+}
+
+div > .vimiumHintMarker > .matchingCharacter {
+}
+
+
+
+/* vimium的搜索条样式设置 */
+:root {
+    --vim-background: #1d1f21;
+    --vim-current-line: #282a2e;
+    --vim-selection: #373b41;
+    --vim-foreground: #c5c8c6;
+    --vim-comment: #969896;
+    --vim-red: #cc6666;
+    --vim-orange: #de935f;
+    --vim-yellow: #f0c674;
+    --vim-green: #b5bd68;
+    --vim-aqua: #8abeb7;
+    --vim-blue: #81a2be;
+    --vim-purple: #b294bb;
+    --vim-white: #ffffff
+}
+
+input#vomnibarInput.vimiumReset {
+   color: var(--vim-foreground) !important;
+   background-color: var(--vim-background) !important;
+   height: 60px;
+   font-size: 26px;
+}
+
+#vomnibar {
+   border-color: var(--vim-background);
+   background-color: black;
+}
+
+#vomnibar .vimiumReset.vomnibarTopHalf span {
+    font-family: 'Consolas', monospace !important;
+    font-weight: normal;
+    font-size: 17px
+}
+
+#vomnibar .vomnibarSearchArea {
+   background-color: var(--vim-background);
+   border-bottom: var(--vim-background);
+   padding: 0 0 0 1em;
+}
+
+#vomnibar input {
+   font-family: Consolas;
+   border-color: var(--vim-background);
+}
+
+#vomnibar ul.vimiumReset {
+    background-color: var(--vim-background);
+    border-top: 1px solid var(--vim-selection);
+}
+
+#vomnibar li {
+   border-bottom: 1px solid var(--vim-selection);
+}
+
+#vomnibar li .vomnibarUrl {
+   font-family: Consolas;
+   font-size: 16px;
+   color: var(--vim-blue);
+}
+
+#vomnibar li .vomnibarMatch {
+   color: var(--vim-green) !important;
+   font-weight: normal;
+}
+
+span.vimiumReset.vomnibarSource.vomnibarInsertText {
+   color: var(--vim-red) !important;
+} 
+
+#vomnibar li.vomnibarSelected {
+    background-color: var(--vim-selection);
+}
+
+#vomnibar li em .vomnibarMatch, 
+#vomnibar li .vomnibarTitle .vomnibarMatch,
+#vomnibar .vimiumReset.matchingCharacter {
+   color: var(--vim-green) !important;
+}
+
+#vomnibar li em, #vomnibar li .vomnibarTitle {
+   font-family: Arial;
+   color: var(--vim-foreground);
+}
+
+#vomnibar li .vimiumReset.vomnibarSource {
+    color: var(--vim-comment);
+}
